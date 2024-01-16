@@ -2,24 +2,47 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: solid 1px red;
     align-content: center;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+
+   
 }
 
 [class *= "container"]{
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: solid 1px red;
     align-content: center;
     justify-content: center;
     padding-bottom: 10%;
+     
 }
 
 .imgen{
+    margin-top: 50px;
     width: 100px;
     height: 100px;
 }
 
+#foto_perfil{
+   border-radius: 100%;
+   border: 10px solid rgb(247, 178, 181);
+}
+
+h1,h2{
+    color: rgb(277, 6, 19);
+    font-family: 'TU_NUEVA_FUENTE';
+}
+
+
+html{
+   margin: 30px;
+}
+
+
+@font-face {
+    font-family: 'TU_NUEVA_FUENTE';
+    src: url('font/Present.otf') format('opentype');
+    /* Reemplaza con el nombre real de tu archivo de fuente */
+}
