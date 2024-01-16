@@ -1,11 +1,25 @@
 [class *= "col"]{
-    padding: 1rem;
-    border: 2px solid yellow;
-    background-color: orange;
-    color:aliceblue
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px red;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10%;
 }
 
-h1{
+[class *= "container"]{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    border: solid 1px red;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.imgen{
+    width: 100px;
+    height: 100px;
 }
 
