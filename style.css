@@ -40,6 +40,15 @@ html{
    margin: 30px;
 }
 
+#carouselExampleFade {
+    max-width: 600px; /* Puedes ajustar el ancho máximo del carrusel según tus necesidades */
+    margin: auto; /* Centra el carrusel horizontalmente */
+  }
+
+  #carouselExampleFade img {
+    max-width: 100%; /* Ajusta la imagen al 100% del ancho del carrusel */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+  }
 
 @font-face {
     font-family: 'TU_NUEVA_FUENTE';
