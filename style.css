@@ -1,4 +1,4 @@
-[class *= "col"]{
+[class *="col"] {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,49 +6,66 @@
     justify-content: center;
     padding-bottom: 5%;
 
-   
+
 }
 
-[class *= "container"]{
+[class *="container"] {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-content: center;
     justify-content: center;
     padding-bottom: 10%;
-     
+
 }
 
-.imgen{
-    margin-top: 50px;
-    width: 100px;
-    height: 100px;
+
+
+#foto_perfil {
+    border-radius: 100%;
+    border: 10px solid rgb(247, 178, 181);
+    max-width: 100%;
+    min-width: 10%;
+    /* Hace que la imagen se ajuste al ancho del contenedor */
+
 }
 
-#foto_perfil{
-   border-radius: 100%;
-   border: 10px solid rgb(247, 178, 181);
-}
 
-h1,h2{
+h1, h2,h5 {
     color: rgb(277, 6, 19);
     font-family: 'TU_NUEVA_FUENTE';
 }
 
 
-html{
-   margin: 30px;
+html {
+    margin: 0px;
+    padding: 0px;
+
 }
 
-#carouselExampleFade {
-    max-width: 600px; /* Puedes ajustar el ancho máximo del carrusel según tus necesidades */
-    margin: auto; /* Centra el carrusel horizontalmente */
-  }
+.nav {
+    margin-bottom: 100px; /* Ajusta el valor según tus necesidades */
 
-  #carouselExampleFade img {
-    max-width: 100%; /* Ajusta la imagen al 100% del ancho del carrusel */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-  }
+}
+
+.carousel-item img {
+    max-width: 60%; /* Ajusta el ancho al 100% del contenedor */
+    max-height: 60%; /* Ajusta la altura al 100% del contenedor */
+    object-fit: cover; /* Mantiene la proporción y corta si es necesario para cubrir el contenedor */
+}
+
+    /* Estilos para cambiar el color de las flechas del carrusel */
+    .carousel-control-prev-icon {
+        background-color: red; /* Cambia el color a rojo o tu color preferido */
+        border-radius: 100px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: red; /* Cambia el color a rojo o tu color preferido */
+        border-radius: 100px;
+    }
+
+
 
 @font-face {
     font-family: 'TU_NUEVA_FUENTE';
